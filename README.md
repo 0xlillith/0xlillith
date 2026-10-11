@@ -6,7 +6,7 @@
 
 ---
 
-Hey, I'm **selune** (aka `0xlillith`, she/her). I'm a curious maker somewhere between **software, hardware and systems**. I like getting to know how things work, dismantling problems, and building useful (occasionally chaotic) solutions.
+Hey, I'm **selune** (aka `0xlillith`). I'm a curious maker somewhere between **software, hardware and systems**. I like getting to know how things work, dismantling problems, and building useful (occasionally chaotic) solutions.
 
 ### Where I spend my time
 
