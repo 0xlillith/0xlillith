@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">selune — code, circuits and controlled chaos</title>
+<desc id="desc">Gothic dark-tech banner with a purple crescent moon, geometric circuit motifs and selune's motto.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset=".58" stop-color="#190f22"/><stop offset="1" stop-color="#0b0b10"/></linearGradient>
+  <linearGradient id="moon" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#e8b7ff"/><stop offset=".55" stop-color="#a876cf"/><stop offset="1" stop-color="#653c89"/></linearGradient>
+  <radialGradient id="aura"><stop stop-color="#9d64c9" stop-opacity=".28"/><stop offset="1" stop-color="#9d64c9" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" stroke="#c2c8d0" stroke-opacity=".05"/></pattern>
+</defs>
+<rect width="1200" height="320" rx="20" fill="url(#bg)"/>
+<rect width="1200" height="320" rx="20" fill="url(#grid)"/>
+<rect x="1" y="1" width="1198" height="318" rx="19" fill="none" stroke="#b59bc9" stroke-opacity=".20"/>
+<path d="M51 33H600M51 287H537" stroke="#aa6284" stroke-opacity=".22" stroke-width="1"/>
+<circle cx="895" cy="161" r="168" fill="url(#aura)"/>
+<circle cx="895" cy="161" r="129" fill="none" stroke="#ba8cdb" stroke-opacity=".20" stroke-width="1.5"/>
+<circle cx="895" cy="161" r="111" fill="none" stroke="#c2c8d0" stroke-opacity=".10" stroke-width="1" stroke-dasharray="2 8"/>
+<path d="M883 62C853 87 835 123 835 161c0 47 25 87 64 110-13 3-28 4-44 0-54-10-94-55-94-110 0-58 46-106 105-106 6 0 12 2 17 7Z" fill="url(#moon)" opacity=".98"/>
+<g stroke="#a978cb" stroke-opacity=".60" fill="none" stroke-width="1.5">
+ <path d="M1037 83h81m-42-37v74"/><circle cx="1076" cy="83" r="4" fill="#a978cb"/>
+ <path d="M1031 228h90m-45-23v46"/><circle cx="1076" cy="228" r="4" fill="#a978cb"/>
+ <path d="M731 75v30m-15-15h30m230-39v20m-10-10h20"/>
+ <path d="M734 242l12-12 12 12-12 12zM1036 164l10-10 10 10-10 10z"/>
+</g>
+<rect x="56" y="52" width="172" height="32" rx="16" fill="#1b1d28" stroke="#b59bc9" stroke-opacity=".26"/>
+<circle cx="77" cy="68" r="4" fill="#802342"/><circle cx="93" cy="68" r="4" fill="#8457b5"/><circle cx="109" cy="68" r="4" fill="#a5a8b1"/>
+<text x="127" y="73" fill="#c4cbd4" font-family="Segoe UI, Arial, sans-serif" font-size="13">~/0xlillith</text>
+<text x="56" y="145" fill="#f6f0f9" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="-1">selune_</text>
+<text x="56" y="188" fill="#e6c4ef" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="600">Code, circuits &amp; controlled chaos.</text>
+<text x="56" y="222" fill="#c2c8d0" font-family="Segoe UI, Arial, sans-serif" font-size="18">Somewhere between a terminal, a soldering iron and a guitar amp.</text>
+<g font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#c2c8d0">
+ <text x="58" y="269">LINUX</text><text x="139" y="269" fill="#875a98">/</text>
+ <text x="157" y="269">AUTOMATION</text><text x="288" y="269" fill="#875a98">/</text>
+ <text x="307" y="269">ELECTRONICS</text><text x="457" y="269" fill="#875a98">/</text>
+ <text x="475" y="269">SELF-HOSTING</text>
+</g>
+</svg>
