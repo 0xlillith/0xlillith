@@ -26,7 +26,7 @@ Somewhere between a terminal, a soldering iron and a guitar amp feels about righ
 
 |  |  |
 | :--- | :--- |
-| **[Viper ↗](https://github.com/0xlillith/Viper)**<br><sub>HARDWARE · CYBERDECK</sub><br>A custom cyberdeck experiment: printed parts, keyboards, tiny computers and a lot of tinkering. | **[SolveCraft ↗](https://github.com/bherbruck/solvecraft)**<br><sub>OPEN SOURCE · RUST · CAD</sub><br>Exploring parametric CAD in Rust and preparing my first contribution. [My fork →](https://github.com/0xlillith/solvecraft) |
+| **[Viper ↗](https://github.com/0xlillith/Viper)**<br><sub>HARDWARE · CYBERDECK</sub><br>A custom cyberdeck experiment: printed parts, keyboards, tiny computers and a lot of tinkering. | **[SolidCraft ↗](https://github.com/bherbruck/solvecraft)**<br><sub>OPEN SOURCE · RUST · CAD</sub><br>Exploring parametric CAD in Rust and preparing my first contribution. [My fork →](https://github.com/0xlillith/solvecraft) |
 | **Homelab & self-hosting**<br><sub>LINUX · CONTAINERS · INFRASTRUCTURE</sub><br>Docker, networking, storage, media services and the eternal pursuit of a reliable self-hosted setup. | **[Keyboards & electronics ↗](https://github.com/0xlillith/0xlillith_snap_keymap)**<br><sub>QMK · SOLDERING · 3D PRINTING</sub><br>Firmware, layouts, PCB experiments and custom cases. Also see my [Snap / Tidbit case mod](https://github.com/0xlillith/Snap-Tidbit_casemod). |
 
 ### ⌁ What I like working with
