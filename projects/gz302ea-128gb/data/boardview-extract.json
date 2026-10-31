@@ -1,0 +1,229 @@
+{
+  "source": "GZ302EA Rev 2.0 BoardView .fz",
+  "source_sha256": "b87c91f10ef4163c7129db8a7e1eedea4f2d148d829fb911e5b05c15f6824944",
+  "units": "mils",
+  "pairs": {
+    "3": {
+      "side": "BOTTOM",
+      "zero": "R0715",
+      "one": "R0744"
+    },
+    "2": {
+      "side": "BOTTOM",
+      "zero": "R0719",
+      "one": "R0726"
+    },
+    "1": {
+      "side": "TOP",
+      "zero": "R0727",
+      "one": "R0728"
+    },
+    "0": {
+      "side": "TOP",
+      "zero": "R0705",
+      "one": "R0739"
+    }
+  },
+  "parts": {
+    "R0715": {
+      "side": "BOTTOM",
+      "populated": true,
+      "pins": [
+        [
+          1,
+          7687.8,
+          2443.9,
+          "GND"
+        ],
+        [
+          2,
+          7687.8,
+          2407.9,
+          "DIMM_SEL3"
+        ]
+      ]
+    },
+    "R0744": {
+      "side": "BOTTOM",
+      "populated": false,
+      "pins": [
+        [
+          1,
+          7637.3,
+          2404.1,
+          "DIMM_SEL3"
+        ],
+        [
+          2,
+          7601.3,
+          2404.1,
+          "+1.8VS"
+        ]
+      ]
+    },
+    "R0726": {
+      "side": "BOTTOM",
+      "populated": true,
+      "pins": [
+        [
+          1,
+          7461.0,
+          2316.0,
+          "DIMM_SEL2"
+        ],
+        [
+          2,
+          7497.0,
+          2316.0,
+          "+1.8VS"
+        ]
+      ]
+    },
+    "R0719": {
+      "side": "BOTTOM",
+      "populated": false,
+      "pins": [
+        [
+          1,
+          7497.0,
+          2352.0,
+          "GND"
+        ],
+        [
+          2,
+          7461.0,
+          2352.0,
+          "DIMM_SEL2"
+        ]
+      ]
+    },
+    "R0728": {
+      "side": "TOP",
+      "populated": true,
+      "pins": [
+        [
+          1,
+          7452.0,
+          2282.0,
+          "DIMM_SEL1"
+        ],
+        [
+          2,
+          7488.0,
+          2282.0,
+          "+1.8VS"
+        ]
+      ]
+    },
+    "R0727": {
+      "side": "TOP",
+      "populated": false,
+      "pins": [
+        [
+          1,
+          7488.0,
+          2324.0,
+          "GND"
+        ],
+        [
+          2,
+          7452.0,
+          2324.0,
+          "DIMM_SEL1"
+        ]
+      ]
+    },
+    "R0739": {
+      "side": "TOP",
+      "populated": false,
+      "pins": [
+        [
+          1,
+          7452.0,
+          2210.0,
+          "DIMM_SEL0"
+        ],
+        [
+          2,
+          7488.0,
+          2210.0,
+          "+1.8VS"
+        ]
+      ]
+    },
+    "R0705": {
+      "side": "TOP",
+      "populated": true,
+      "pins": [
+        [
+          1,
+          7452.0,
+          2246.0,
+          "GND"
+        ],
+        [
+          2,
+          7488.0,
+          2246.0,
+          "DIMM_SEL0"
+        ]
+      ]
+    },
+    "C0704": {
+      "side": "BOTTOM",
+      "populated": true,
+      "pins": [
+        [
+          1,
+          7682.4,
+          2514.9,
+          "+1.8VSUS"
+        ],
+        [
+          2,
+          7682.4,
+          2478.9,
+          "GND"
+        ]
+      ]
+    },
+    "R2848": {
+      "side": "BOTTOM",
+      "populated": false,
+      "pins": [
+        [
+          1,
+          7621,
+          2368.4,
+          "APU_SPI_WP#_R"
+        ],
+        [
+          2,
+          7657,
+          2368.4,
+          "SPI_FLASH_IO2"
+        ]
+      ]
+    },
+    "R0733": {
+      "side": "BOTTOM",
+      "populated": true,
+      "pins": [
+        [
+          1,
+          7461,
+          2278.27,
+          "AGPIO9"
+        ],
+        [
+          2,
+          7497,
+          2278.27,
+          "TPANEL_INT#"
+        ]
+      ]
+    }
+  },
+  "verified_again": "2026-10-31: fresh read of the original FZ; source SHA-256 matched.",
+  "population_scope": "BOM of the reference 32 GB Samsung board; not a measurement."
+}

@@ -1,0 +1,150 @@
+{
+  "source": "Project BIOS/APCB table supplied by the owner; original firmware version/hash and extraction offsets not yet recovered.",
+  "runtime_tested": false,
+  "configurations": [
+    {
+      "total_gb": 64,
+      "manufacturer": "SK hynix",
+      "part_number": "H58G66CK8BX147N",
+      "per_package_gb": 8,
+      "packages": 8,
+      "apcb_instance": 1,
+      "boardmask": "0x0002",
+      "sel3_to_0": "0000",
+      "populated": [
+        "R0715",
+        "R0719",
+        "R0727",
+        "R0705"
+      ]
+    },
+    {
+      "total_gb": 64,
+      "manufacturer": "Samsung",
+      "part_number": "K3KL9L90DM-MGCU",
+      "per_package_gb": 8,
+      "packages": 8,
+      "apcb_instance": 2,
+      "boardmask": "0x0004",
+      "sel3_to_0": "0001",
+      "populated": [
+        "R0715",
+        "R0719",
+        "R0727",
+        "R0739"
+      ]
+    },
+    {
+      "total_gb": 64,
+      "manufacturer": "Micron",
+      "part_number": "MT62F2G32D4DS-023 WT",
+      "per_package_gb": 8,
+      "packages": 8,
+      "apcb_instance": 3,
+      "boardmask": "0x0008",
+      "sel3_to_0": "0011",
+      "populated": [
+        "R0715",
+        "R0719",
+        "R0728",
+        "R0739"
+      ]
+    },
+    {
+      "total_gb": 32,
+      "manufacturer": "SK hynix",
+      "part_number": "H58G56CK8BX146N",
+      "per_package_gb": 4,
+      "packages": 8,
+      "apcb_instance": 4,
+      "boardmask": "0x0010",
+      "sel3_to_0": "0100",
+      "populated": [
+        "R0715",
+        "R0726",
+        "R0727",
+        "R0705"
+      ]
+    },
+    {
+      "total_gb": 32,
+      "manufacturer": "Samsung",
+      "part_number": "K3KL8L80DM-MGCU",
+      "per_package_gb": 4,
+      "packages": 8,
+      "apcb_instance": 5,
+      "boardmask": "0x0020",
+      "sel3_to_0": "0110",
+      "populated": [
+        "R0715",
+        "R0726",
+        "R0728",
+        "R0705"
+      ]
+    },
+    {
+      "total_gb": 32,
+      "manufacturer": "Micron",
+      "part_number": "MT62F1G32D2DS-023 WT",
+      "per_package_gb": 4,
+      "packages": 8,
+      "apcb_instance": 6,
+      "boardmask": "0x0040",
+      "sel3_to_0": "0111",
+      "populated": [
+        "R0715",
+        "R0726",
+        "R0728",
+        "R0739"
+      ]
+    },
+    {
+      "total_gb": 128,
+      "manufacturer": "SK hynix",
+      "part_number": "H58G78CK8BX185N",
+      "per_package_gb": 16,
+      "packages": 8,
+      "apcb_instance": 7,
+      "boardmask": "0x0080",
+      "sel3_to_0": "1100",
+      "populated": [
+        "R0744",
+        "R0726",
+        "R0727",
+        "R0705"
+      ]
+    },
+    {
+      "total_gb": 128,
+      "manufacturer": "Samsung",
+      "part_number": "K3KLALA0DM-MGCU",
+      "per_package_gb": 16,
+      "packages": 8,
+      "apcb_instance": 8,
+      "boardmask": "0x0100",
+      "sel3_to_0": "1110",
+      "populated": [
+        "R0744",
+        "R0726",
+        "R0728",
+        "R0705"
+      ]
+    },
+    {
+      "total_gb": 128,
+      "manufacturer": "Micron",
+      "part_number": "MT62F4G32D8DV-023 WT",
+      "per_package_gb": 16,
+      "packages": 8,
+      "apcb_instance": 9,
+      "boardmask": "0x0200",
+      "sel3_to_0": "1111",
+      "populated": [
+        "R0744",
+        "R0726",
+        "R0728",
+        "R0739"
+      ]
+    }
+  ]
+}

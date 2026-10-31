@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 900" width="1180" height="900" role="img" aria-label="GZ302EA R2.0 Samsung strap move, mirrored BOTTOM view">
+<rect width="1180" height="900" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#17252d}.title{font-size:28px;font-weight:bold}.label{font-size:20px;font-weight:bold}.small{font-size:16px}</style>
+<text x="30" y="45" class="title">GZ302EA R2.0 — Samsung 32 → 128 GB</text>
+<text x="30" y="75" class="small">BOTTOM; X decreases right / Y increases down. Matches the corrected microscope photo.</text>
+<text x="30" y="102" class="small">Pad centres from the source file; schematic outlines. No copper traces shown.</text>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#17252d"/></marker></defs>
+<rect x="725.95" y="192.28" width="127.40" height="50.00" rx="3" fill="none" stroke="#43515a" stroke-width="2"/>
+<path d="M828.35,217.28 L750.95,217.28" stroke="#43515a" stroke-width="24"/>
+<rect x="809.35" y="198.28" width="38" height="38" fill="white" stroke="#43515a" stroke-width="2"/>
+<text x="828.35" y="222.28" class="small" text-anchor="middle">1</text>
+<rect x="731.95" y="198.28" width="38" height="38" fill="white" stroke="#43515a" stroke-width="2"/>
+<text x="750.95" y="222.28" class="small" text-anchor="middle">2</text>
+<text x="865.35" y="222.28" class="label" text-anchor="start">R0733 (do not use)</text>
+<rect x="725.95" y="273.40" width="127.40" height="50.00" rx="3" fill="none" stroke="#43515a" stroke-width="2"/>
+<path d="M828.35,298.40 L750.95,298.40" stroke="#43515a" stroke-width="24"/>
+<rect x="809.35" y="279.40" width="38" height="38" fill="white" stroke="#43515a" stroke-width="2"/>
+<text x="828.35" y="303.40" class="small" text-anchor="middle">1</text>
+<rect x="731.95" y="279.40" width="38" height="38" fill="white" stroke="#43515a" stroke-width="2"/>
+<text x="750.95" y="303.40" class="small" text-anchor="middle">2</text>
+<text x="865.35" y="303.40" class="label" text-anchor="start">R0726</text>
+<rect x="725.95" y="350.80" width="127.40" height="50.00" rx="3" fill="none" stroke="#43515a" stroke-width="2" stroke-dasharray="5 4"/>
+<rect x="731.95" y="356.80" width="38" height="38" fill="white" stroke="#43515a" stroke-width="2"/>
+<text x="750.95" y="380.80" class="small" text-anchor="middle">1</text>
+<rect x="809.35" y="356.80" width="38" height="38" fill="white" stroke="#43515a" stroke-width="2"/>
+<text x="828.35" y="380.80" class="small" text-anchor="middle">2</text>
+<text x="865.35" y="380.80" class="label" text-anchor="start">R0719</text>
+<rect x="120.27" y="302.02" width="182.05" height="134.67" rx="3" fill="none" stroke="#43515a" stroke-width="2"/>
+<rect x="150.27" y="334.02" width="122.05" height="70.67" fill="#e8ecef"/>
+<rect x="264.33" y="398.68" width="26" height="26" fill="white" stroke="#43515a" stroke-width="2"/>
+<text x="277.33" y="416.68" class="small" text-anchor="middle">1</text>
+<rect x="264.33" y="356.35" width="26" height="26" fill="white" stroke="#43515a" stroke-width="2"/>
+<text x="277.33" y="374.35" class="small" text-anchor="middle">2</text>
+<rect x="264.33" y="314.02" width="26" height="26" fill="white" stroke="#43515a" stroke-width="2"/>
+<text x="277.33" y="332.02" class="small" text-anchor="middle">3</text>
+<rect x="132.27" y="314.02" width="26" height="26" fill="white" stroke="#43515a" stroke-width="2"/>
+<text x="145.27" y="332.02" class="small" text-anchor="middle">4</text>
+<rect x="132.27" y="356.35" width="26" height="26" fill="white" stroke="#43515a" stroke-width="2"/>
+<text x="145.27" y="374.35" class="small" text-anchor="middle">5</text>
+<rect x="132.27" y="398.68" width="26" height="26" fill="white" stroke="#43515a" stroke-width="2"/>
+<text x="145.27" y="416.68" class="small" text-anchor="middle">6</text>
+<text x="211.30" y="291.02" class="label" text-anchor="middle">Q2808</text>
+<rect x="381.95" y="386.06" width="127.40" height="50.00" rx="3" fill="none" stroke="#43515a" stroke-width="2" stroke-dasharray="5 4"/>
+<rect x="465.35" y="392.06" width="38" height="38" fill="white" stroke="#43515a" stroke-width="2"/>
+<text x="484.35" y="416.06" class="small" text-anchor="middle">1</text>
+<rect x="387.95" y="392.06" width="38" height="38" fill="white" stroke="#43515a" stroke-width="2"/>
+<text x="406.95" y="416.06" class="small" text-anchor="middle">2</text>
+<text x="521.35" y="416.06" class="label" text-anchor="start">R2848 (do not use)</text>
+<rect x="424.30" y="462.81" width="127.40" height="50.00" rx="3" fill="none" stroke="#006f93" stroke-width="2" stroke-dasharray="5 4"/>
+<rect x="430.30" y="468.81" width="38" height="38" fill="white" stroke="#006f93" stroke-width="2"/>
+<text x="449.30" y="492.81" class="small" text-anchor="middle">1</text>
+<rect x="507.70" y="468.81" width="38" height="38" fill="white" stroke="#006f93" stroke-width="2"/>
+<text x="526.70" y="492.81" class="small" text-anchor="middle">2</text>
+<text x="563.70" y="492.81" class="label" text-anchor="start">R0744</text>
+<rect x="315.73" y="470.99" width="50.00" height="127.40" rx="3" fill="none" stroke="#a64416" stroke-width="2"/>
+<path d="M340.73,573.39 L340.73,495.99" stroke="#a64416" stroke-width="24"/>
+<rect x="321.73" y="554.39" width="38" height="38" fill="white" stroke="#a64416" stroke-width="2"/>
+<text x="340.73" y="578.39" class="small" text-anchor="middle">1</text>
+<rect x="321.73" y="476.99" width="38" height="38" fill="white" stroke="#a64416" stroke-width="2"/>
+<text x="340.73" y="500.99" class="small" text-anchor="middle">2</text>
+<text x="305.73" y="539.69" class="label" text-anchor="end">R0715</text>
+<rect x="327.34" y="623.64" width="50.00" height="127.40" rx="3" fill="none" stroke="#43515a" stroke-width="2"/>
+<path d="M352.34,726.04 L352.34,648.64" stroke="#43515a" stroke-width="24"/>
+<rect x="333.34" y="707.04" width="38" height="38" fill="white" stroke="#43515a" stroke-width="2"/>
+<text x="352.34" y="731.04" class="small" text-anchor="middle">1</text>
+<rect x="333.34" y="629.64" width="38" height="38" fill="white" stroke="#43515a" stroke-width="2"/>
+<text x="352.34" y="653.64" class="small" text-anchor="middle">2</text>
+<text x="317.34" y="692.34" class="label" text-anchor="end">C0704</text>
+<path d="M380,560 Q445,612 488,521" fill="none" stroke="#17252d" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="30" y="810" class="label">Move the 10 kΩ 0402 resistor: R0715 → R0744. Rotate 90° to fit.</text>
+<text x="30" y="842" class="small">R0715 empty afterwards; R0744 fitted. Keep R0726, R0728 and R0705 unchanged.</text>
+<text x="30" y="874" class="small">Source BOM state, not a measured result. Verify the unpowered board before rework.</text>
+</svg>
