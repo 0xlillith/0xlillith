@@ -1,8 +1,8 @@
 # ASUS ROG Flow Z13 GZ302EA — memory straps and 128 GB research
 
-Updated: 2026-10-31. Board covered: **GZ302EA R2.0**.
+Updated: 2026-11-01. Board covered: **GZ302EA R2.0**.
 
-**Current status: disassembled and masked; original DRAM and straps unchanged. No continuity readings or 128 GB boot result have been reported.**
+**Current status: all three pre-rework multimeter checks passed with direct continuity, as reported by the owner. Original DRAM and straps remain unchanged at the last explicit hardware-state report; no rework or 128 GB boot result has been reported.** Numerical resistance readings were not supplied. [Measurement record](docs/multimeter-checks.md).
 
 The planned upgrade uses **eight Samsung `K3KLALA0DM-MGCU` packages**. From the factory 32 GB Samsung configuration, the documented strap change is **`R0715 → R0744`**, selecting `0110 → 1110`. Leave `R0726`, `R0728` and `R0705` unchanged. Changing straps alone does not add RAM.
 
@@ -11,8 +11,9 @@ The physical PCB marking is **R2.0**, despite SMBIOS reporting `Version 1.0`. Do
 ## Evidence status
 
 - **Re-read from the original BoardView:** resistor pairs, nets, pad coordinates, board sides and the reference BOM. File hash recorded below.
+- **Owner-reported physical tests:** T1/T2/T3 passed with direct continuity. This supports the identified connections on the actual board; Ω readings and instrument metadata were not supplied. [S8](SOURCES.md#s8--owners-continuity-test-report).
 - **Recovered project result:** the nine-row BIOS/APCB selection table. Its original firmware version, hash and extraction offsets have not yet been recovered; this publication is not a fresh binary analysis.
-- **Not demonstrated:** continuity on the actual board, successful training/POST with the replacement chips, or long-term stability. Existing firmware support is a working expectation, not a guarantee.
+- **Not demonstrated:** a completed strap/DRAM replacement, successful training/POST with the replacement chips, or long-term stability. Existing firmware support is a working expectation, not a guarantee.
 
 ## Strap pairs — two board faces
 
@@ -72,7 +73,7 @@ The labels correspond to metal contact points on the original photograph, not re
 | 2: C–D | R0715 pad 1, lower end | C0704 pad 2, upper end | `GND` | Same |
 | 3: E–F | R0744 pad 2, right pad | R0726 pad 2, left end | `+1.8VS` | Same |
 
-These are **expected connections, not measured results**. `+1.8VS` names a net; this is not a request to apply power or measure 1.8 V. C0704's other terminal is `+1.8VSUS`, a different net. Stop on any unresolved discrepancy. [Full procedure and measurement log](docs/multimeter-checks.md).
+**Recorded result: T1, T2 and T3 PASS — direct continuity reported by the owner.** Numerical Ω values remain unreported. This supports the pad identification, but is not a complete short-circuit or post-rework test. `+1.8VS` names a net; this is not a request to apply power or measure 1.8 V. C0704's other terminal is `+1.8VSUS`, a different net. Stop on any unresolved discrepancy. [Full procedure and measurement log](docs/multimeter-checks.md).
 
 ## Project notes
 
@@ -80,7 +81,7 @@ These are **expected connections, not measured results**. `+1.8VS` names a net; 
 |---|---|
 | [STATE](STATE.md) | Current hardware state and next gates |
 | [BoardView](docs/boardview.md) | Both faces, original pad coordinates, orientation and nearby parts |
-| [Multimeter](docs/multimeter-checks.md) | Exact probe placement, expected readings, blank results log |
+| [Multimeter](docs/multimeter-checks.md) | Exact probe placement, expected readings and owner-reported results |
 | [All configurations](docs/other-configurations.md) | Moves from factory Samsung 32 GB, separated by face |
 | [Hardware and firmware](docs/hardware-firmware.md) | Baseline, package evidence, APCB limitations |
 | [Rework and materials](docs/rework.md) | Equipment, practice incident, process controls and test plan |
