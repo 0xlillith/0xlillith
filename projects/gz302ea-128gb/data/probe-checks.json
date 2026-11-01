@@ -1,116 +1,43 @@
 {
   "source_photo": "1000075612.jpg",
-  "photo_dimensions": [
-    1536,
-    1157
-  ],
+  "photo_dimensions": [1536, 1157],
   "boardview": "GZ302EA Rev 2.0 BoardView .fz",
   "boardview_sha256": "b87c91f10ef4163c7129db8a7e1eedea4f2d148d829fb911e5b05c15f6824944",
   "boardview_read": "2026-10-31; direct read via Remote Desktop Commander on Bolloteca",
   "points": {
-    "R0715.1": {
-      "net": "GND",
-      "xy_mils": [
-        7687.8,
-        2443.9
-      ],
-      "photo_contact_xy": [
-        1073,
-        714
-      ]
-    },
-    "R0715.2": {
-      "net": "DIMM_SEL3",
-      "xy_mils": [
-        7687.8,
-        2407.9
-      ],
-      "photo_contact_xy": [
-        1073,
-        656
-      ]
-    },
-    "R0744.1": {
-      "net": "DIMM_SEL3",
-      "xy_mils": [
-        7637.3,
-        2404.1
-      ],
-      "photo_contact_xy": [
-        1152,
-        648
-      ]
-    },
-    "R0744.2": {
-      "net": "+1.8VS",
-      "xy_mils": [
-        7601.3,
-        2404.1
-      ],
-      "photo_contact_xy": [
-        1207,
-        646
-      ]
-    },
-    "R0726.2": {
-      "net": "+1.8VS",
-      "xy_mils": [
-        7497.0,
-        2316.0
-      ],
-      "photo_contact_xy": [
-        1376,
-        509
-      ]
-    },
-    "C0704.2": {
-      "net": "GND",
-      "xy_mils": [
-        7682.4,
-        2478.9
-      ],
-      "photo_contact_xy": [
-        1085,
-        751
-      ]
-    }
+    "R0715.1": {"net": "GND", "xy_mils": [7687.8, 2443.9], "photo_contact_xy": [1073, 714]},
+    "R0715.2": {"net": "DIMM_SEL3", "xy_mils": [7687.8, 2407.9], "photo_contact_xy": [1073, 656]},
+    "R0744.1": {"net": "DIMM_SEL3", "xy_mils": [7637.3, 2404.1], "photo_contact_xy": [1152, 648]},
+    "R0744.2": {"net": "+1.8VS", "xy_mils": [7601.3, 2404.1], "photo_contact_xy": [1207, 646]},
+    "R0726.2": {"net": "+1.8VS", "xy_mils": [7497.0, 2316.0], "photo_contact_xy": [1376, 509]},
+    "C0704.2": {"net": "GND", "xy_mils": [7682.4, 2478.9], "photo_contact_xy": [1085, 751]}
   },
   "tests": [
-    {
-      "test": 1,
-      "red": "R0715.2",
-      "black": "R0744.1",
-      "net": "DIMM_SEL3",
-      "measured_ohms": null,
-      "result": "pending"
-    },
-    {
-      "test": 2,
-      "red": "R0715.1",
-      "black": "C0704.2",
-      "net": "GND",
-      "measured_ohms": null,
-      "result": "pending"
-    },
-    {
-      "test": 3,
-      "red": "R0744.2",
-      "black": "R0726.2",
-      "net": "+1.8VS",
-      "measured_ohms": null,
-      "result": "pending"
-    }
+    {"test": 1, "red": "R0715.2", "black": "R0744.1", "net": "DIMM_SEL3", "measured_ohms": null, "result": "pass_owner_reported", "reported_observation": "direct continuity", "source": "S8"},
+    {"test": 2, "red": "R0715.1", "black": "C0704.2", "net": "GND", "measured_ohms": null, "result": "pass_owner_reported", "reported_observation": "direct continuity", "source": "S8"},
+    {"test": 3, "red": "R0744.2", "black": "R0726.2", "net": "+1.8VS", "measured_ohms": null, "result": "pass_owner_reported", "reported_observation": "direct continuity", "source": "S8"}
   ],
-  "note": "Electrical connections from the source BoardView. Photo locations visually matched. Physical measurements are still required.",
+  "note": "Pad identities and coordinates come from the BoardView and matched source photograph. The owner reports all three physical continuity tests passed. Numerical resistance readings and instrument details were not supplied. This supports pad identification, not absence of all shorts, resistor value, firmware support or successful rework.",
   "photo_sha256": "46c822f8c6cd9a15252ca550b610a46df39c91ec0aeb779a2612d8ed4d9a8365",
-  "labels": {
-    "A": "R0715.2",
-    "B": "R0744.1",
-    "C": "R0715.1",
-    "D": "C0704.2",
-    "E": "R0744.2",
-    "F": "R0726.2"
+  "labels": {"A": "R0715.2", "B": "R0744.1", "C": "R0715.1", "D": "C0704.2", "E": "R0744.2", "F": "R0726.2"},
+  "measurement_status": "PASS / all three direct-continuity checks reported by owner; numerical ohms not supplied",
+  "shorted_leads_ohms": null,
+  "owner_report": {
+    "recorded_on": "2026-11-01",
+    "measurement_timestamp": null,
+    "evidence_type": "owner-reported physical test",
+    "source": "S8",
+    "instrument_type": "multimeter",
+    "meter_model": null,
+    "meter_mode": null,
+    "power_disconnected_explicitly_confirmed_in_result": null,
+    "residual_voltage_check_reported": null,
+    "reported_discrepancies": [],
+    "rework_reported": false,
+    "modified_board_post_reported": false
   },
-  "measurement_status": "NOT MEASURED / no user readings reported",
-  "shorted_leads_ohms": null
+  "history": [
+    {"recorded_on": "2026-10-31", "status": "pending; no physical results supplied"},
+    {"recorded_on": "2026-11-01", "status": "T1/T2/T3 pass with direct continuity, owner-reported; numerical ohms remain unknown"}
+  ]
 }
