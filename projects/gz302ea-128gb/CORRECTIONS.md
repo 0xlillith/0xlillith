@@ -12,7 +12,11 @@ These corrections supersede earlier chat illustrations and the initial Obsidian 
 | The empty footprint above the destination was another valid destination | It is R2848, connected to SPI nets, not R0744. | Source nets |
 | All +1.8 V-labelled rails could be treated as interchangeable | +1.8VS and +1.8VSUS are distinct nets. The upper pad of C0704 is GND. | Source nets |
 | Existing APCB entries guaranteed stock-BIOS operation | The recovered table is useful but its original binary provenance has not been recovered. Runtime success remains unproven. | Evidence audit |
-| “Confirmed” implied the owner had measured the board | Source-file verification, photographic matching, continuity measurements and runtime tests are separate evidence levels. | No physical readings supplied |
+| “Confirmed” implied the owner had measured the board | Source-file verification, photographic matching, continuity measurements and runtime tests are separate evidence levels. | No physical results had been supplied when the earlier claim was made; see the subsequent report below |
+
+## Subsequent physical test report
+
+Recorded 2026-11-01: the owner reports T1, T2 and T3 all passed with direct continuity. This supersedes the previous missing-continuity-result status; numerical Ω values remain unreported. It does not reinstate any withdrawn image or prove that rework, POST or stability validation has occurred. See [measurement record](docs/multimeter-checks.md) and [S8](SOURCES.md#s8--owners-continuity-test-report).
 
 ## Withdrawn filenames
 
@@ -27,4 +31,4 @@ Do not use the following old outputs for pad location, even if an earlier chat c
 
 They are not included as active references. The current diagram is an annotation of the original microscope photograph, with pad locations traceable through `data/probe-checks.json`. The original full-resolution Spanish measurement guides may be retained privately as a historical reference, but new edits must use the source photograph rather than repainting it.
 
-The owner explicitly stated that **nothing had been desoldered** after the erroneous directions. Do not invent a repair, a damaged component or a successfully completed move.
+The owner explicitly stated that **nothing had been desoldered** after the erroneous directions. No later report describes a strap move or chip replacement. Do not invent a repair, a damaged component or a successfully completed move.
