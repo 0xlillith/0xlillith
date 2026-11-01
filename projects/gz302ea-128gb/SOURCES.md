@@ -1,6 +1,6 @@
 # Evidence and sources
 
-Updated: 2026-10-31. Different evidence types must remain distinct.
+Updated: 2026-11-01. Different evidence types must remain distinct.
 
 ## S1 — Original BoardView, privately held
 
@@ -8,7 +8,7 @@ File: `GZ302EA Rev 2.0 BoardView .fz`.
 
 SHA-256: `b87c91f10ef4163c7129db8a7e1eedea4f2d148d829fb911e5b05c15f6824944`.
 
-A fresh read during this documentation update confirmed the eight strap designators, their pad nets/coordinates, face fields and BOM population. The source identifies GZ302EA 2.0 / 60NR0JY0-MB4000, reference 32 GB MAX+-395 board. The minimal extract is stored in `data/boardview-extract.json`.
+A direct read during the 2026-10-31 documentation update confirmed the eight strap designators, their pad nets/coordinates, face fields and BOM population. The source identifies GZ302EA 2.0 / 60NR0JY0-MB4000, reference 32 GB MAX+-395 board. The minimal extract is stored in `data/boardview-extract.json`.
 
 This verifies what the file contains, not the electrical state of every physical board. The raw commercial file and its viewer are not redistributed.
 
@@ -34,7 +34,7 @@ The nine-row table was pasted back into the project conversation by the owner, t
 
 ## S6 — Project conversation record
 
-Recorded by the owner: purchase/receipt of Samsung DRAM; available tools; preference for solder paste; donor-board practice; board disassembly and masking; no desoldering yet; work postponed because of wind. The current [STATE](STATE.md) reflects the latest explicit hardware report, not a planned operation.
+Recorded by the owner: purchase/receipt of Samsung DRAM; available tools; preference for solder paste; donor-board practice; board disassembly and masking; no desoldering yet; work postponed because of wind. The current [STATE](STATE.md) reflects explicit hardware reports, not planned operations. The later continuity-test result is recorded separately as S8.
 
 Relevant historical chat entries include chip-model confirmation (2026-09-18), supplier inspection video (2026-09-22), reported chip arrival (2026-09-29), and MX300 wick/pad incident (2026-10-10). Dates from older chat summaries are historical pointers, not a reconstructed tool-execution log.
 
@@ -43,6 +43,14 @@ Relevant historical chat entries include chip-model confirmation (2026-09-18), s
 Existing `Compras.md`, read 2026-10-31. Records Samsung ×8 and the Coolmod thermal-material order: EUR 19.95 + EUR 32.95 = EUR 52.90 before unrecorded shipping. Some equipment checkboxes predate later purchases; newer observations are kept separately rather than silently treating every unchecked box as still missing.
 
 The original note is retained privately. Public procurement notes omit personal messages, addresses, account details and unneeded commercial/private data.
+
+## S8 — Owner's continuity-test report
+
+Recorded in this documentation on 2026-11-01. The owner explicitly reports completing the three multimeter checks, all passing with direct continuity. In the referenced procedure these are T1 R0715.2 ↔ R0744.1, T2 R0715.1 ↔ C0704.2, and T3 R0744.2 ↔ R0726.2.
+
+Evidence type: **owner-reported physical test**. Numerical Ω readings, shorted-lead reference, meter model/mode, exact test timestamp, and separate confirmation of test conditions were not supplied. No instrument screenshot or independently witnessed measurement accompanies the report. Unknowns remain null/unreported.
+
+This supersedes the previous “no physical continuity results supplied” status. It supports the photographed pad/network identification, but does not validate every rail, exclude all shorts, measure an isolated resistor value, establish firmware compatibility or prove a completed modification. No strap move, chip replacement or 128 GB POST was reported in this result.
 
 ## Sources not recovered
 
@@ -54,6 +62,6 @@ The original Chinese modification-video URLs/transcripts; the supplier video's f
 - **Owner-reported:** explicitly stated in the project history.
 - **Recovered analysis:** preserved result whose original calculation/binary has not been rechecked.
 - **Planned / expected:** work or behaviour not yet observed.
-- **Measured / tested:** only after actual results are recorded; currently no continuity or modified-board results exist.
+- **Measured / tested:** actual results recorded with their provenance. T1/T2/T3 now have qualitative owner-reported passes; numerical readings and modified-board runtime results remain unavailable.
 
 Public release does not grant rights to the withheld BoardView, vendor materials or firmware. No third-party licence is inferred from possession of a source file.
