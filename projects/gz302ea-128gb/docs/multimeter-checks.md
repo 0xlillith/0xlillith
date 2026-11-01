@@ -1,6 +1,6 @@
 # Unpowered continuity checks before the Samsung strap change
 
-Status: **not performed / no readings supplied**. These checks verify connections expected from the BoardView; they do not certify the upgrade.
+Status: **T1, T2 and T3 passed with direct continuity, as reported by the owner.** Recorded 2026-11-01; the exact measurement timestamp and numerical resistance readings were not supplied. These checks support the pad identification; they do not certify the upgrade. See [S8](../SOURCES.md#s8--owners-continuity-test-report).
 
 ![Probe locations](../assets/probe-points.webp)
 
@@ -25,11 +25,11 @@ The horizontal resistor above R0726 is **R0733**, not another strap. The empty h
 
 ## Three measurements
 
-| Test | Red | Black | Expected |
-|---|---|---|---|
-| T1 — SEL3 connection | A | B | Low, stable resistance close to the shorted-lead reading |
-| T2 — ground connection | C | D | Same |
-| T3 — pull-up rail connection | E | F | Same |
+| Test | Red | Black | Expected | Owner-reported result |
+|---|---|---|---|---|
+| T1 — SEL3 connection | A | B | Low, stable resistance close to the shorted-lead reading | PASS — direct continuity |
+| T2 — ground connection | C | D | Same | PASS — direct continuity |
+| T3 — pull-up rail connection | E | F | Same | PASS — direct continuity |
 
 These are same-net checks. **10 kΩ is not the expected reading**: none measures across both ends of R0715. The name `+1.8VS` is not an expected voltage during this procedure; do not power the board for T3.
 
@@ -37,27 +37,29 @@ Use the numerical resistance reading as well as the beeper. There is no universa
 
 Passing these three checks supports the pad identification, but is not a complete short-circuit test: a fault shorting nets together could also produce continuity. It does not isolate the resistor's value, prove every rail is healthy, validate the DRAM part, or establish BIOS compatibility. Those are separate checks.
 
-## Record actual results
+## Recorded results
 
-Do not fill this table with expected readings.
+Evidence: the owner explicitly reported completing all three multimeter checks successfully, with direct continuity. This is an owner-reported physical test, not an assistant measurement or a software-check result. No meter display photographs, numerical readings or shorted-lead reference were supplied; unknown values remain unreported rather than being filled with zero or expected values.
 
 | Field | Recorded value |
 |---|---|
-| Date / operator | Not recorded |
-| Meter model and mode | Not recorded |
-| Battery / charger / powered peripherals disconnected | Not recorded |
-| Residual voltage check | Not recorded |
-| Shorted-lead reference, Ω | Not measured |
-| T1 A–B, Ω | Not measured |
-| T2 C–D, Ω | Not measured |
-| T3 E–F, Ω | Not measured |
-| Any discrepancy / corrective action | Not recorded |
-| Decision to proceed | Pending |
+| Record date / operator | 2026-11-01 / board owner |
+| Exact measurement timestamp | Not supplied |
+| Instrument | Multimeter; model and selected mode not supplied |
+| Battery / charger / powered peripherals disconnected | Required by the procedure; not separately confirmed in the result message |
+| Residual voltage check | Not separately reported |
+| Shorted-lead reference, Ω | Not supplied |
+| T1 A–B result / Ω | PASS — direct continuity; numerical Ω not supplied |
+| T2 C–D result / Ω | PASS — direct continuity; numerical Ω not supplied |
+| T3 E–F result / Ω | PASS — direct continuity; numerical Ω not supplied |
+| Any discrepancy / corrective action | None reported for these three checks |
+| Consequence | Physical test report supports the identified SEL3, ground and pull-up-rail connections |
+| Rework / 128 GB operation | Not reported as performed; still pending |
 
-Update this table and [probe-checks.json](../data/probe-checks.json) together when measurements are supplied. The source records include original photo coordinates and BoardView coordinates; a label in this image is not a measurement.
+Update this table and [probe-checks.json](../data/probe-checks.json) together when further results are supplied. The source records retain original photo coordinates and BoardView coordinates. The continuity result does not change the documented resistor positions or prove that any resistor has been moved.
 
 ## After the eventual move
 
 The copper connections tested above do not change when the resistor is moved, so passing them again does **not** prove that the new resistor was soldered correctly. Inspect both solder joints at R0744 and confirm R0715 is empty. Check for bridges and displaced adjacent parts. An in-circuit resistance reading may be affected by other paths and is not automatically an isolated 10 kΩ measurement.
 
-Source: [S1, S2 and S5](../SOURCES.md). No physical continuity or resistance readings have yet been recorded.
+Sources: [S1 and S2](../SOURCES.md) for pad identities and the photograph, [S5](../SOURCES.md#s5--meter-handling) for meter handling, and [S8](../SOURCES.md#s8--owners-continuity-test-report) for the reported results. Numerical resistance readings, rework and modified-board runtime validation remain unreported.
